@@ -1,0 +1,14 @@
+package com.capgemini.second;
+
+import com.capgemini.firstClass;
+
+public class secondClass {
+
+	public static void main(String[] args)
+	{
+		firstClass n=new firstClass();
+		n.method();
+
+	}
+
+}

@@ -1,0 +1,22 @@
+class parent
+{
+	parent()
+	{
+		System.out.println("Parent Constructor");
+	}
+}
+class child extends parent
+{
+	child()
+	{
+		System.out.println("child constructor");
+	}
+}
+	public class test
+	{
+		public static void main(String[] args)
+		{
+			child c=new child();
+		}
+		
+	}
